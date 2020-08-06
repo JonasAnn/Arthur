@@ -9,8 +9,8 @@ function myFunction() {
   if (window.pageYOffset  >= sticky) {
     let navLogo = document.querySelector(".navbar__item--logo");
     console.log("The nav i smoving");
-    console.log(navbar.offsetTop);
-    // navLogo.style.visibility = "visible";
+    // console.log(navbar.offsetTop);
+     navLogo.style.visibility = "visible";
     
   } else {
     // navLogo.style.visibility = "hidden";

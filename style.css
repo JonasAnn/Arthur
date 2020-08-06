@@ -29,7 +29,8 @@ body{
 }
 @media screen and (max-width: 900px){
     html{
-        font-size: 56.25%;;
+        font-size: 56.25%;
+        background-image: url("./images/header-tab.png");
     }
 }
 @media screen and (max-width: 600px){
