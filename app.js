@@ -1,9 +1,10 @@
 // Get the navbar
 let navbar = document.querySelector(".navbar");
+let header = document.querySelector(".header");
 console.log(navbar);
 // Get the offset position of the navbar
 let sticky = navbar.offsetTop;
-
+console.log(navbar.offsetTop);
 // Add the sticky class to the navbar when you reach its scroll position. Remove the sticky class when you leave the scroll position.
 function myFunction() {
   if (window.pageYOffset  >= sticky) {
@@ -13,7 +14,7 @@ function myFunction() {
      navLogo.style.visibility = "visible";
     
   } else {
-    // navLogo.style.visibility = "hidden";
+    navLogo.style.visibility = "hidden";
   }
 }
 myFunction();

@@ -119,6 +119,17 @@ body{
         width: 50%;
     }
 
+    .navbar__item--logo{
+        width: 45%;
+    }
+    
+    .navbar__list{
+        justify-content: space-between;
+        align-items: center; 
+        width: 50%;
+    }
+    
+
 }
 /* vertical nav styling */
 .vertical__nav{
