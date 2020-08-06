@@ -114,15 +114,23 @@ body{
 }
 
 /* mobile media query for navbar */
-@media screen and (max-width: 600px){
-    .list__stick{
-        width: 50%;
-    }
-
+@media screen and (max-width: 900px){
     .navbar__item--logo{
         width: 45%;
     }
-    
+
+    .navbar__list{
+        justify-content: space-between;
+        align-items: center; 
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar__item--logo{
+        width: 45%;
+    }
+
     .navbar__list{
         justify-content: space-between;
         align-items: center; 
